@@ -34,4 +34,4 @@ I love applying analytical models to financial problems — from stock performan
 
 ### 📫 Connect With Me
 - www.linkedin.com/in/kartik-sharma-472514117
-- 📧 kartik.connects@gmail.com
+- kartik.connects@gmail.com
