@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Rahul  
+# 👋 Hi, I'm Kartik  
 🎓 MSc in Financial Analytics | Dublin Business School  
 📊 Financial Analyst | Data Analytics | Machine Learning for Finance  
 
