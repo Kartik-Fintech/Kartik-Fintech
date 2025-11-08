@@ -18,8 +18,8 @@ I love applying analytical models to financial problems — from stock performan
 | Project | Description | Tools |
 |----------|--------------|--------|
 | [Financial Health Scoring System](https://github.com/YOURUSERNAME/financial-health-scoring) | Ranked companies based on liquidity, profitability, and risk metrics using Python and Yahoo Finance | Python, yfinance, pandas, matplotlib |
-| [Loan Approval Prediction](https://github.com/YOURUSERNAME/loan-approval-prediction) | Machine learning model to predict loan approval likelihood | Python, scikit-learn |
-| [Time Series Forecasting](https://github.com/YOURUSERNAME/time-series-forecasting) | Forecasted stock prices using ARIMA and Random Forest | Python, statsmodels |
+| [Loan Data Prediction](https://github.com/YOURNAME/loan-data-prediction) | Predicted loan approval using machine learning | Python, Scikit-learn |
+| [Nike Stock Analysis](https://github.com/YOURNAME/nike-stock-analysis) | Analyzed Nike’s stock performance using yfinance | Python, Pandas, Matplotlib |
 | [Financial Dashboard](https://github.com/YOURUSERNAME/powerbi-financial-dashboard) | Power BI dashboard visualizing profitability and risk trends | Power BI |
 
 ---
