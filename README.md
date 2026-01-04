@@ -19,7 +19,7 @@ I love applying analytical models to financial problems — from stock performan
 |----------|--------------|--------|
 | [Financial Health Scoring System](https://github.com/Kartik-Fintech/Kartik-Fintech/blob/main/financial_health_scoring.ipynb) | Ranked companies based on liquidity, profitability, and risk metrics using Python and Yahoo Finance | Python, yfinance, pandas, matplotlib |
 | [Loan Data Prediction](https://github.com/Kartik-Fintech/Kartik-Fintech/blob/main/loan_data_prediction.ipynb) | Predicted loan approval using machine learning | Python, Scikit-learn |
-| [Nike Stock Analysis](https://github.com/YOURNAME/nike-stock-analysis) | Analyzed Nike’s stock performance using yfinance | Python, Pandas, Matplotlib |
+| [Nike Stock Analysis](https://github.com/Kartik-Fintech/Kartik-Fintech/blob/main/NIKE_STOCK_ANALYSIS.ipynb) | Analyzed Nike’s stock performance using yfinance | Python, Pandas, Matplotlib |
 | [Financial Dashboard](https://github.com/YOURUSERNAME/powerbi-financial-dashboard) | Power BI dashboard visualizing profitability and risk trends | Power BI |
 
 ---
