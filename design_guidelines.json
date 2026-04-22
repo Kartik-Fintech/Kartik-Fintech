@@ -1,0 +1,121 @@
+{
+  "theme": "dark",
+  "archetype": "2 (Performance Pro)",
+  "typography": {
+    "headings": {
+      "family": "Barlow Condensed",
+      "weights": [
+        "600",
+        "800",
+        "900"
+      ],
+      "styling": "tracking-tight uppercase",
+      "import_url": "https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;800;900&display=swap"
+    },
+    "body": {
+      "family": "Manrope",
+      "weights": [
+        "400",
+        "500",
+        "600"
+      ],
+      "styling": "tracking-normal",
+      "import_url": "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&display=swap"
+    },
+    "scale": {
+      "h1": "text-5xl sm:text-6xl+ tracking-tighter uppercase font-black",
+      "h2": "text-4xl sm:text-5xl tracking-tight uppercase font-extrabold",
+      "h3": "text-2xl sm:text-3xl tracking-tight uppercase font-bold",
+      "body": "text-base text-white/70 font-medium",
+      "label": "text-xs tracking-[0.2em] uppercase font-bold text-neon-green"
+    }
+  },
+  "colors": {
+    "background": {
+      "primary": "#050505",
+      "secondary": "#111111",
+      "glass": "rgba(255, 255, 255, 0.03)"
+    },
+    "brand": {
+      "primary": "#0047FF",
+      "accent": "#39FF14",
+      "glow": "rgba(0, 71, 255, 0.4)"
+    },
+    "text": {
+      "primary": "#FFFFFF",
+      "secondary": "#A3A3A3",
+      "muted": "#737373",
+      "inverse": "#000000"
+    },
+    "border": {
+      "default": "rgba(255, 255, 255, 0.1)",
+      "hover": "rgba(0, 71, 255, 0.5)"
+    }
+  },
+  "layout": {
+    "spacing": "Generous spacing. p-12, p-16 to p-24 for main sections. Bento grids with gap-6 to gap-8.",
+    "grid_modes": "Bento grids for features (mix of col-span-2 and col-span-1). Strict asymmetry.",
+    "container": "max-w-7xl mx-auto px-6",
+    "surface_strategy": "Crystal Glassmorphism: bg-white/[0.03] backdrop-blur-xl border border-white/10 rounded-2xl shadow-[0_8px_32px_rgba(0,0,0,0.5)]"
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-[#0047FF] hover:bg-[#003BCC] text-white font-bold px-8 py-4 rounded-full transition-all hover:scale-105 hover:shadow-[0_0_20px_rgba(0,71,255,0.4)]",
+      "secondary": "bg-transparent border border-white/20 text-white hover:bg-white/10 font-bold px-8 py-4 rounded-full transition-all",
+      "accent": "bg-[#39FF14] text-black font-extrabold px-8 py-4 rounded-full hover:scale-105 transition-all"
+    },
+    "cards": {
+      "glass": "bg-white/[0.02] backdrop-blur-lg border border-white/10 rounded-3xl p-8 hover:border-[#0047FF]/50 transition-colors group",
+      "glow_border": "relative before:absolute before:inset-0 before:p-[1px] before:bg-gradient-to-r before:from-[#0047FF] before:to-[#39FF14] before:rounded-3xl"
+    },
+    "waitlist_modal": {
+      "overlay": "bg-black/80 backdrop-blur-xl",
+      "surface": "bg-[#0A0A0A] border border-white/10 rounded-3xl p-8 max-w-md w-full",
+      "input": "bg-white/5 border border-white/10 text-white placeholder-white/40 rounded-xl px-4 py-3 w-full focus:outline-none focus:border-[#0047FF] focus:ring-1 focus:ring-[#0047FF]"
+    }
+  },
+  "motion": {
+    "hover": "Fast and punchy. scale-105, duration-200, ease-out.",
+    "entrance": "Staggered fade up via framer-motion. Initial y: 20, opacity: 0. Spring physics (stiffness 100, damping 20).",
+    "scroll": "Lenis smooth scroll is MANDATORY. Parallax on hero image."
+  },
+  "media": {
+    "hero": {
+      "url": "https://static.prod-images.emergentagent.com/jobs/8fc113ad-8636-4d32-bc41-f7459b3c7438/images/7c7779afde5c0aba46a4d1fa110af3af29df7a0e588cd4ff3cd65d5a1c23029c.png",
+      "description": "Cinematic athlete starting position with neon blue/green glow",
+      "treatment": "Use bg-black/40 overlay. Parallax slow scroll."
+    },
+    "features_analytics": {
+      "url": "https://static.prod-images.emergentagent.com/jobs/8fc113ad-8636-4d32-bc41-f7459b3c7438/images/8ceab0dbe8352853adf4f03c3418b2f77601de2f3e1721149028bfa02d1ab7a5.png",
+      "description": "3D sports analytics dashboard glow",
+      "treatment": "Place in Bento grid large cell."
+    },
+    "athlete_showcase": {
+      "url": "https://images.unsplash.com/photo-1473091540282-9b846e7965e3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2MzR8MHwxfHNlYXJjaHwzfHxhdGhsZXRlJTIwZHJhbWF0aWMlMjBsaWdodGluZyUyMGRhcmslMjBiYWNrZ3JvdW5kfGVufDB8fHx8MTc3Njg1MzY5MXww&ixlib=rb-4.1.0&q=85",
+      "description": "Athlete in dramatic lighting, night time jump",
+      "treatment": "Use in 'How it Works' or Features section. Rounded corners with electric blue border hover."
+    },
+    "athlete_profile": {
+      "url": "https://images.pexels.com/photos/15491571/pexels-photo-15491571.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "description": "Dramatic portrait of athletic man in spotlight",
+      "treatment": "Use for testimonial or user profile mockup."
+    },
+    "brand_logos": [
+      "https://images.unsplash.com/photo-1636051028886-0059ad2383c8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMzJ8MHwxfHNlYXJjaHw0fHxjb21wYW55JTIwbG9nbyUyMGJyYW5kJTIwd2hpdGUlMjBpY29ufGVufDB8fHx8MTc3Njg1MzcwNnww&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1688712645033-38bc029d8d44?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMzJ8MHwxfHNlYXJjaHwzfHxjb21wYW55JTIwbG9nbyUyMGJyYW5kJTIwd2hpdGUlMjBpY29ufGVufDB8fHx8MTc3Njg1MzcwNnww&ixlib=rb-4.1.0&q=85",
+      "https://images.pexels.com/photos/21898300/pexels-photo-21898300.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+    ]
+  },
+  "instructions_to_main_agent": [
+    "Strictly apply Archetype 2: Performance Pro.",
+    "Ensure text uses Barlow Condensed for massive headers and Manrope for body text to give it an elite athletic feel.",
+    "Implement waitlist functionality via Shadcn Dialog component but heavily customized with glassmorphism to look premium.",
+    "The Hero section must have 'Build Your Athletic Career Digitally' in text-5xl to text-7xl uppercase. The background must use the 'hero' media url with a gradient overlay that keeps it legible.",
+    "Do NOT use pure #000000. Use #050505 or #0A0A0A for backgrounds.",
+    "All interactive elements must include data-testid.",
+    "Split 'Features' visually using a toggle (Athletes vs Recruiters) or a side-by-side bento layout.",
+    "Use Phosphor icons or Lucide. Provide contrasting neon green (#39FF14) sparingly for 'verified' checkmarks or live dots.",
+    "Ensure Lenis is used for smooth momentum scrolling.",
+    "Use 1px borders (e.g. border-white/10) instead of heavy shadows for the tactical/athletic feel."
+  ]
+}
